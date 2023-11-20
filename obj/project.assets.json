@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Unit/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Unit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Unit.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Unit/1.0.0": {
+      "sha512": "uB+C/hpBufLMPCDTe70JJmYhn58N9YbrkZC174vUCAXfsqmf7KGlsQ/LgdZaC2J1IATV6TkBnrf0p23a7j3vGg==",
+      "type": "package",
+      "path": "unit/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Unit.dll",
+        "unit.1.0.0.nupkg.sha512",
+        "unit.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "unit >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/leke/.nuget/packages/": {}
@@ -43,6 +68,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "unit": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -62,5 +93,17 @@
         "runtimeIdentifierGraphPath": "/home/leke/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Unit 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Unit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
