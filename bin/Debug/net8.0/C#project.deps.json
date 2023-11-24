@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "C#project/1.0.0": {
+        "dependencies": {
+          "Unit": "1.0.0"
+        },
         "runtime": {
           "C#project.dll": {}
+        }
+      },
+      "Unit/1.0.0": {
+        "runtime": {
+          "lib/net45/Unit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -18,6 +29,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Unit/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uB+C/hpBufLMPCDTe70JJmYhn58N9YbrkZC174vUCAXfsqmf7KGlsQ/LgdZaC2J1IATV6TkBnrf0p23a7j3vGg==",
+      "path": "unit/1.0.0",
+      "hashPath": "unit.1.0.0.nupkg.sha512"
     }
   }
 }

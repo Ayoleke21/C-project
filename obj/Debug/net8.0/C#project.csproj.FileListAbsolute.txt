@@ -12,3 +12,7 @@
 /home/leke/Desktop/C#project/obj/Debug/net8.0/C#project.pdb
 /home/leke/Desktop/C#project/obj/Debug/net8.0/C#project.genruntimeconfig.cache
 /home/leke/Desktop/C#project/obj/Debug/net8.0/ref/C#project.dll
+/home/leke/Desktop/C#project/bin/Debug/net8.0/Unit.dll
+/home/leke/Desktop/C#project/obj/Debug/net8.0/C#project.csproj.AssemblyReference.cache
+/home/leke/Desktop/C#project/obj/Debug/net8.0/C#project.sourcelink.json
+/home/leke/Desktop/C#project/obj/Debug/net8.0/C#project.csproj.CopyComplete
