@@ -31,4 +31,4 @@ jobs:
       run: |
         cd /var/www/html/Test
         git reset --hard HEAD
-        git pull origin main
+        git pull origin master
