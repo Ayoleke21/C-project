@@ -32,4 +32,4 @@ jobs:
         git config --global --add safe.directory /var/www/html/C#project
         cd /var/www/html/C#project
         git reset --hard HEAD
-        git pull origin master 
+        git pull origin master
