@@ -29,6 +29,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Deploy code to document root
       run: |
+        git config --global --add safe.directory /var/www/html/Test
         cd /var/www/html/Test
         git reset --hard HEAD
         git pull origin master
